@@ -1,0 +1,15 @@
+(1, 0):
+  newState: 1
+  move: "r"
+(1, 1):
+  move: "r"
+(c, 1):
+  mutate: "1"
+  move: "r"
+(null, 1):
+  newState: 2
+  move: "l"
+(1, 2):
+  mutate: "null"
+  newState: -1
+  move: "Halt"
